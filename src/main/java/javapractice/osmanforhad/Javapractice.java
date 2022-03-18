@@ -46,6 +46,8 @@ public class Javapractice {
          ConstructorObj.demo();
              //constructor overloading
              ConstructorExampleClass ConstructorOveloadObj = new ConstructorExampleClass(10.23467);
-        
+        //Working With Super Keyword Concept
+        SubClass SuperKeyobj = new SubClass();
+        SuperKeyobj.Print();
     }
 }
