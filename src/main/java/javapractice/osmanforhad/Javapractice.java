@@ -32,6 +32,10 @@ public class Javapractice {
         System.out.println(StaticMethodVariableExampleClass.a);
          //Working With Static Method Concept
          StaticMethodVariableExampleClass.add();
+         //Working With Inheritance Concept
+         SonClass SonObj = new SonClass();
+         SonObj.add();
+         System.out.println(SonObj.b);
         
     }
 }
