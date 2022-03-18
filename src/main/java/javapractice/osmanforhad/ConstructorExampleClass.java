@@ -16,4 +16,10 @@ public class ConstructorExampleClass {
     public void demo(){
         System.out.println("This is Normal Method");
     }
+    
+    //__Construtor Method Overloading__//
+    ConstructorExampleClass(double b){
+        double y = b;
+        System.out.println(y);
+    }
 }

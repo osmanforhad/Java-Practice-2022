@@ -44,6 +44,8 @@ public class Javapractice {
          //Working With Paramitarized Constructor Method Concept
          ConstructorExampleClass ConstructorObj = new ConstructorExampleClass(900);
          ConstructorObj.demo();
+             //constructor overloading
+             ConstructorExampleClass ConstructorOveloadObj = new ConstructorExampleClass(10.23467);
         
     }
 }
