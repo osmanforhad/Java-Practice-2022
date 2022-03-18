@@ -20,5 +20,11 @@ public class Javapractice {
         MyObject.add();
                   //Accessing instance variable through the object
         System.out.println(MyObject.a);
+        //Working With Local Variable Concept
+        LocalVariableExampleClass LocalVariableObject = new LocalVariableExampleClass();
+        LocalVariableObject.add();
+                    //Accessing Local Variable with the help of instance variable through the object
+        System.out.println(LocalVariableObject.instanceVariable);
+        
     }
 }
