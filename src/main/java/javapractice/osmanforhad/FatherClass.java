@@ -13,7 +13,7 @@ public class FatherClass {
     public int c;
     
     public void add () {
-       this.c = this. a + this.b;
+       this.c = this.a + this.b;
        System.out.println(this.c);
     }
     
