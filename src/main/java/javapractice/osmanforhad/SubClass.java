@@ -5,8 +5,10 @@ package javapractice.osmanforhad;
  * @author osman forhad
  */
 public class SubClass extends SuperClass{
-    String S = "From Sub Class";
+   
+    //__Override__//
     void Print(){
-        System.out.println(super.S);
+        super.Print();//__Calling Method from Super Class__//
+        System.out.println("From Sub Class");
     }
 }
