@@ -7,8 +7,9 @@ package javapractice.osmanforhad;
 public class ConstructorExampleClass {
     
     //__Construtor Method__//
-    ConstructorExampleClass(){
-        System.out.println("This is Constructor Method");
+    ConstructorExampleClass(int a){
+        int x = a;
+        System.out.println(x);
     }
     
     //__Normal Method__//

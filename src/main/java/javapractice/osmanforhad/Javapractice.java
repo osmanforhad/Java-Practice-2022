@@ -41,8 +41,8 @@ public class Javapractice {
          OverloadObj.osman(3, 2);
          OverloadObj.osman(10, 20, 30);
          OverloadObj.osman(1.3, 5.2);
-         //Working With Constructor Method Concept
-         ConstructorExampleClass ConstructorObj = new ConstructorExampleClass();
+         //Working With Paramitarized Constructor Method Concept
+         ConstructorExampleClass ConstructorObj = new ConstructorExampleClass(900);
          ConstructorObj.demo();
         
     }
