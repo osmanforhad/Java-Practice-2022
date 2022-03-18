@@ -32,10 +32,15 @@ public class Javapractice {
         System.out.println(StaticMethodVariableExampleClass.a);
          //Working With Static Method Concept
          StaticMethodVariableExampleClass.add();
-         //Working With Inheritance Concept
+         //Working With Inheritance and Method Overriging Concept
          SonClass SonObj = new SonClass();
          SonObj.add();
          System.out.println(SonObj.b);
+         //Working With Method Overloading Concept
+         MethodOverLoadingExampleClass OverloadObj = new MethodOverLoadingExampleClass();
+         OverloadObj.osman(3, 2);
+         OverloadObj.osman(10, 20, 30);
+         OverloadObj.osman(1.3, 5.2);
         
     }
 }
