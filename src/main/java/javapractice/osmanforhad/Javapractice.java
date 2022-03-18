@@ -49,5 +49,10 @@ public class Javapractice {
         //Working With Super Keyword Concept
         SubClass SuperKeyobj = new SubClass();
         SuperKeyobj.Print();
+         //Working With Java Interface Concept
+         InterfaceExampleClass InterfaceObj = new InterfaceExampleClass();
+         InterfaceObj.FirstMethod();
+         InterfaceObj.SecondMethod();
+         InterfaceObj.ThirdMethod();
     }
 }
