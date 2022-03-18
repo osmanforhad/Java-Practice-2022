@@ -3,6 +3,9 @@ package javapractice.osmanforhad;
 /**
  *
  * @author osman forhad
+ * 
+ * This is the Main Class or
+ *  Entry Point of the Application
  */
 public class Javapractice {
 
@@ -25,6 +28,10 @@ public class Javapractice {
         LocalVariableObject.add();
                     //Accessing Local Variable with the help of instance variable through the object
         System.out.println(LocalVariableObject.instanceVariable);
+        //Working With Static Variable Concept
+        System.out.println(StaticMethodVariableExampleClass.a);
+         //Working With Static Method Concept
+         StaticMethodVariableExampleClass.add();
         
     }
 }
