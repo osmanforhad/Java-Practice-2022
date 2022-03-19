@@ -66,6 +66,13 @@ public class Javapractice {
         ThreadExampleBClass ForhadObj = new ThreadExampleBClass();
         OsmanObj.start();
         ForhadObj.start();
+        //Working With Thread By Interface Concept
+        ThreadByInterfaceA ObjA = new ThreadByInterfaceA();
+        ThreadByInterfaceB ObjB = new ThreadByInterfaceB();
+        Thread x = new Thread(ObjA);
+        x.start();
+        Thread y = new Thread(ObjB);
+        y.start();
          
     }
 }
