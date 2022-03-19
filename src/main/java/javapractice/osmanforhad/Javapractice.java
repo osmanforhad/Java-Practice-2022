@@ -61,6 +61,11 @@ public class Javapractice {
          SetterGetterExampleClass StrGtrObj = new SetterGetterExampleClass();
          System.out.println(StrGtrObj.GetterName());
          StrGtrObj.SetterAddress("Feni Bangladesh");
+        //Working With Thread By Inheritance Concept
+        ThreadExampleAClass OsmanObj = new ThreadExampleAClass();
+        ThreadExampleBClass ForhadObj = new ThreadExampleBClass();
+        OsmanObj.start();
+        ForhadObj.start();
          
     }
 }
