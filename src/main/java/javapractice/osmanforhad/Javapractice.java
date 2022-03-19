@@ -60,5 +60,7 @@ public class Javapractice {
          //Working With Setter Getter Concept
          SetterGetterExampleClass StrGtrObj = new SetterGetterExampleClass();
          System.out.println(StrGtrObj.GetterName());
+         StrGtrObj.SetterAddress("Feni Bangladesh");
+         
     }
 }
