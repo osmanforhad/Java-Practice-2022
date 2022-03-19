@@ -54,5 +54,8 @@ public class Javapractice {
          InterfaceObj.FirstMethod();
          InterfaceObj.SecondMethod();
          InterfaceObj.ThirdMethod();
+           //Working With Java Abstract Class and Method Concept
+           Helper absObj = new Helper();
+           absObj.demo();
     }
 }
