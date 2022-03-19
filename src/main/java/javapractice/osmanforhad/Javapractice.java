@@ -54,8 +54,11 @@ public class Javapractice {
          InterfaceObj.FirstMethod();
          InterfaceObj.SecondMethod();
          InterfaceObj.ThirdMethod();
-           //Working With Java Abstract Class and Method Concept
+         //Working With Java Abstract Class and Method Concept
            Helper absObj = new Helper();
            absObj.demo();
+         //Working With Setter Getter Concept
+         SetterGetterExampleClass StrGtrObj = new SetterGetterExampleClass();
+         System.out.println(StrGtrObj.GetterName());
     }
 }
